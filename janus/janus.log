@@ -1,0 +1,219 @@
+---------------------------------------------------
+  Starting Meetecho Janus (WebRTC Gateway) v0.2.5
+---------------------------------------------------
+
+Checking command line arguments...
+Debug/log level is 4
+Debug/log timestamps are disabled
+Debug/log colors are enabled
+Adding 'vmnet' to the ICE ignore list...
+Using 172.21.0.2 as local IP...
+[33m[WARN][0m Token based authentication disabled
+Initializing recorder code
+Initializing ICE stuff (Full mode, ICE-TCP candidates disabled, IPv6 support disabled)
+ICE handles watchdog started
+TURN REST API backend: (disabled)
+[33m[WARN][0m Janus is deployed on a private address (172.21.0.2) but you didn't specify any STUN server! Expect trouble if this is supposed to work over the internet and not just in a LAN...
+BUNDLE is NOT going to be forced
+rtcp-mux is NOT going to be forced
+Crypto: OpenSSL pre-1.1.0
+Fingerprint of our certificate: D2:B9:31:8F:DF:24:D8:0E:ED:D2:EF:25:9E:AF:6F:B8:34:AE:53:9C:E6:F3:8F:F2:64:15:FA:E8:7F:53:2D:38
+Event handler plugins folder: /opt/janus/lib/janus/events
+[33m[WARN][0m Event handlers support disabled
+Sessions watchdog started
+Plugins folder: /opt/janus/lib/janus/plugins
+Loading plugin 'libjanus_audiobridge.so'...
+JANUS AudioBridge plugin initialized!
+Loading plugin 'libjanus_textroom.so'...
+AudioBridge watchdog started
+JANUS TextRoom plugin initialized!
+Loading plugin 'libjanus_echotest.so'...
+TextRoom watchdog started
+JANUS EchoTest plugin initialized!
+Loading plugin 'libjanus_recordplay.so'...
+EchoTest watchdog started
+JANUS Record&Play plugin initialized!
+Loading plugin 'libjanus_sip.so'...
+Record&Play watchdog started
+JANUS SIP plugin initialized!
+Loading plugin 'libjanus_streaming.so'...
+SIP watchdog started
+JANUS Streaming plugin initialized!
+Loading plugin 'libjanus_videocall.so'...
+Streaming watchdog started
+JANUS VideoCall plugin initialized!
+Loading plugin 'libjanus_videoroom.so'...
+VideoCall watchdog started
+JANUS VideoRoom plugin initialized!
+Loading plugin 'libjanus_voicemail.so'...
+VideoRoom watchdog started
+JANUS VoiceMail plugin initialized!
+VoiceMail watchdog started
+Transport plugins folder: /opt/janus/lib/janus/transports
+Loading transport plugin 'libjanus_websockets.so'...
+libwebsockets < 1.6 available, using old API
+WebSockets server started (port 8188)...
+[33m[WARN][0m Secure WebSockets server disabled
+[33m[WARN][0m Admin WebSockets server disabled
+[33m[WARN][0m Secure Admin WebSockets server disabled
+JANUS WebSockets transport plugin initialized!
+Loading transport plugin 'libjanus_http.so'...
+WebSocket (Janus API) thread started
+HTTP webserver started (port 8088, /janus path listener)...
+[33m[WARN][0m HTTPS webserver disabled
+[33m[WARN][0m Admin/monitor HTTP webserver disabled
+[33m[WARN][0m Admin/monitor HTTPS webserver disabled
+JANUS REST (HTTP/HTTPS) transport plugin initialized!
+Loading transport plugin 'libjanus_pfunix.so'...
+HTTP/Janus sessions watchdog started
+Configuring SOCK_SEQPACKET Unix Sockets server (Janus API)
+[33m[WARN][0m Unix Sockets server disabled (Admin API)
+JANUS Unix Sockets transport plugin initialized!
+Unix Sockets thread started
+Creating new session: 3376104502816509
+Creating new handle in session 3376104502816509: 5746934753622450
+Stopping gateway, please wait...
+Ending watchdog mainloop...
+Closing transport plugins:
+Stopping webserver(s)...
+HTTP/Janus sessions watchdog stopped
+JANUS REST (HTTP/HTTPS) transport plugin destroyed!
+WebSocket (Janus API) thread ended
+[WSS-0x7fc8bc0008c0] Destroying WebSocket client
+JANUS WebSockets transport plugin destroyed!
+Unlinking /tmp/ux-janusapi
+Unix Sockets thread ended
+JANUS Unix Sockets transport plugin destroyed!
+Destroying sessions...
+Freeing crypto resources...
+De-initializing SCTP...
+Ending ICE handles watchdog mainloop...
+Closing plugins:
+AudioBridge watchdog stopped
+JANUS AudioBridge plugin destroyed!
+VoiceMail watchdog stopped
+JANUS VoiceMail plugin destroyed!
+EchoTest watchdog stopped
+JANUS EchoTest plugin destroyed!
+Record&Play watchdog stopped
+JANUS Record&Play plugin destroyed!
+TextRoom watchdog stopped
+JANUS TextRoom plugin destroyed!
+VideoRoom watchdog stopped
+JANUS VideoRoom plugin destroyed!
+VideoCall watchdog stopped
+JANUS VideoCall plugin destroyed!
+Streaming watchdog stopped
+JANUS Streaming plugin destroyed!
+SIP watchdog stopped
+JANUS SIP plugin destroyed!
+Closing event handlers:
+Bye!
+---------------------------------------------------
+  Starting Meetecho Janus (WebRTC Gateway) v0.2.5
+---------------------------------------------------
+
+Checking command line arguments...
+Debug/log level is 4
+Debug/log timestamps are disabled
+Debug/log colors are enabled
+Adding 'vmnet' to the ICE ignore list...
+Using 172.21.0.2 as local IP...
+[33m[WARN][0m Token based authentication disabled
+Initializing recorder code
+Initializing ICE stuff (Full mode, ICE-TCP candidates disabled, IPv6 support disabled)
+ICE handles watchdog started
+TURN REST API backend: (disabled)
+[33m[WARN][0m Janus is deployed on a private address (172.21.0.2) but you didn't specify any STUN server! Expect trouble if this is supposed to work over the internet and not just in a LAN...
+BUNDLE is NOT going to be forced
+rtcp-mux is NOT going to be forced
+Crypto: OpenSSL pre-1.1.0
+Fingerprint of our certificate: D2:B9:31:8F:DF:24:D8:0E:ED:D2:EF:25:9E:AF:6F:B8:34:AE:53:9C:E6:F3:8F:F2:64:15:FA:E8:7F:53:2D:38
+Event handler plugins folder: /opt/janus/lib/janus/events
+[33m[WARN][0m Event handlers support disabled
+Sessions watchdog started
+Plugins folder: /opt/janus/lib/janus/plugins
+Loading plugin 'libjanus_audiobridge.so'...
+JANUS AudioBridge plugin initialized!
+Loading plugin 'libjanus_textroom.so'...
+AudioBridge watchdog started
+TextRoom watchdog started
+JANUS TextRoom plugin initialized!
+Loading plugin 'libjanus_echotest.so'...
+EchoTest watchdog started
+JANUS EchoTest plugin initialized!
+Loading plugin 'libjanus_recordplay.so'...
+JANUS Record&Play plugin initialized!
+Loading plugin 'libjanus_sip.so'...
+Record&Play watchdog started
+JANUS SIP plugin initialized!
+Loading plugin 'libjanus_streaming.so'...
+SIP watchdog started
+JANUS Streaming plugin initialized!
+Loading plugin 'libjanus_videocall.so'...
+Streaming watchdog started
+JANUS VideoCall plugin initialized!
+Loading plugin 'libjanus_videoroom.so'...
+VideoCall watchdog started
+JANUS VideoRoom plugin initialized!
+Loading plugin 'libjanus_voicemail.so'...
+VideoRoom watchdog started
+JANUS VoiceMail plugin initialized!
+Transport plugins folder: /opt/janus/lib/janus/transports
+VoiceMail watchdog started
+Loading transport plugin 'libjanus_websockets.so'...
+libwebsockets < 1.6 available, using old API
+WebSockets server started (port 8188)...
+[33m[WARN][0m Secure WebSockets server disabled
+[33m[WARN][0m Admin WebSockets server disabled
+[33m[WARN][0m Secure Admin WebSockets server disabled
+JANUS WebSockets transport plugin initialized!
+Loading transport plugin 'libjanus_http.so'...
+WebSocket (Janus API) thread started
+HTTP webserver started (port 8088, /janus path listener)...
+[33m[WARN][0m HTTPS webserver disabled
+[33m[WARN][0m Admin/monitor HTTP webserver disabled
+[33m[WARN][0m Admin/monitor HTTPS webserver disabled
+JANUS REST (HTTP/HTTPS) transport plugin initialized!
+Loading transport plugin 'libjanus_pfunix.so'...
+HTTP/Janus sessions watchdog started
+Configuring SOCK_SEQPACKET Unix Sockets server (Janus API)
+[33m[WARN][0m Unix Sockets server disabled (Admin API)
+JANUS Unix Sockets transport plugin initialized!
+Unix Sockets thread started
+Stopping gateway, please wait...
+Ending watchdog mainloop...
+Closing transport plugins:
+Stopping webserver(s)...
+HTTP/Janus sessions watchdog stopped
+JANUS REST (HTTP/HTTPS) transport plugin destroyed!
+WebSocket (Janus API) thread ended
+JANUS WebSockets transport plugin destroyed!
+Unlinking /tmp/ux-janusapi
+Unix Sockets thread ended
+JANUS Unix Sockets transport plugin destroyed!
+Destroying sessions...
+Freeing crypto resources...
+De-initializing SCTP...
+Ending ICE handles watchdog mainloop...
+Closing plugins:
+AudioBridge watchdog stopped
+JANUS AudioBridge plugin destroyed!
+VoiceMail watchdog stopped
+JANUS VoiceMail plugin destroyed!
+EchoTest watchdog stopped
+JANUS EchoTest plugin destroyed!
+Record&Play watchdog stopped
+JANUS Record&Play plugin destroyed!
+TextRoom watchdog stopped
+JANUS TextRoom plugin destroyed!
+VideoRoom watchdog stopped
+JANUS VideoRoom plugin destroyed!
+VideoCall watchdog stopped
+JANUS VideoCall plugin destroyed!
+Streaming watchdog stopped
+JANUS Streaming plugin destroyed!
+SIP watchdog stopped
+JANUS SIP plugin destroyed!
+Closing event handlers:
+Bye!
